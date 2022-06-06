@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body> <div class="container">
+    <center>
+        <b class="name_of_objects">
+            Prateek/King
+            <hr>
+            Mom
+            <hr>
+            Bubby
+            <hr>
+        </b>
+       
+
+        <label>Webcam Veiw - </label>
+        <div id="camera"></div>
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+
+        <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+        <br><br>
+        <button onclick="check();" class="btn btn-success">Identify Image</button>
+        <p style="font-size: 22px;">Object : <span id="result_object_name"></span></p>
+        <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span></p>
+    </center>
+</div></body>
+   
+    
+   
+</html>
